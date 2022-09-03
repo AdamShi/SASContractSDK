@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SASContractSDK'
-  s.version          = '0.1.11'
+  s.version          = '0.1.12'
   s.summary          = 'This is SASContractSDK. Includes KLines, Contract Deals'
 
 # This description is used to generate tags and improve search results.
@@ -57,7 +57,7 @@ TODO: Add long description of the pod here. Add some Description
   }
   s.pod_target_xcconfig = {
       'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES',
-#      'VALID_ARCHS' => 'x86_64 armv7 arm64'
+      'VALID_ARCHS' => 'x86_64 armv7 arm64'
   }
   
 
