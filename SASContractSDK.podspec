@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SASContractSDK'
-  s.version          = '0.1.10'
+  s.version          = '0.1.11'
   s.summary          = 'This is SASContractSDK. Includes KLines, Contract Deals'
 
 # This description is used to generate tags and improve search results.
@@ -34,8 +34,8 @@ TODO: Add long description of the pod here. Add some Description
   s.vendored_frameworks = 'Frameworks/SASContractSDK.xcframework'
   
   s.libraries  = 'resolv', 'icucore', 'c++', 'z', 'z.1.2.8', 'xml2.2'
-  s.frameworks = 'UIKit', 'Foundation', 'Security', 'SystemConfiguration', 'CoreMotion', 'CoreTelephony', 'AdSupport', 'CoreLocation', 'CoreFoundation'
-  
+  s.frameworks = 'UIKit', 'Foundation', 'Security', 'SystemConfiguration', 'CoreMotion', 'CoreTelephony', 'AdSupport', 'CoreLocation', 'CoreFoundation', 'CoreText'
+
   s.dependency 'Masonry'##, '1.1.0'
   s.dependency 'MJExtension'##, '3.2.4'
   s.dependency 'MJRefresh'##, '3.5.0'
@@ -56,7 +56,8 @@ TODO: Add long description of the pod here. Add some Description
       'OTHER_LDFLAGS'  =>  '-ObjC'
   }
   s.pod_target_xcconfig = {
-      'VALID_ARCHS' => 'x86_64 armv7 arm64'
+      'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES',
+#      'VALID_ARCHS' => 'x86_64 armv7 arm64'
   }
   
 
