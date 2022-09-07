@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SASContractSDK'
-  s.version          = '0.1.14'
+  s.version          = '0.1.15'
   s.summary          = 'This is SASContractSDK. Includes KLines, Contract Deals'
 
 # This description is used to generate tags and improve search results.
@@ -53,15 +53,24 @@ TODO: Add long description of the pod here. Add some Description
   s.dependency 'SDWebImage'##, '5.10.2'
   
   s.user_target_xcconfig  =  {
-      'OTHER_LDFLAGS'  =>  ['-ObjC'],
+      'OTHER_LDFLAGS'  =>  ['$(inherited)','-ObjC'],
       'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES',
-      'VALID_ARCHS' => 'x86_64 armv7 arm64',
-#      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+#      'VALID_ARCHS' => 'x86_64 armv7 arm64',
+#      'ENABLE_BITCODE' => 'NO',
+#      'VALID_ARCHS[sdk=iphonesimulator*]' => '',
+#      'VALID_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+#      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+#      'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'
   }
   s.pod_target_xcconfig = {
+      'OTHER_LDFLAGS'  =>  ['$(inherited)','-ObjC'],
       'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES',
-      'VALID_ARCHS' => 'x86_64 armv7 arm64',
-#      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+#      'VALID_ARCHS' => 'x86_64 armv7 arm64',
+#      'ENABLE_BITCODE' => 'NO',
+#      'VALID_ARCHS[sdk=iphonesimulator*]' => '',
+#      'VALID_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+#      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+#      'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES'
   }
   
 
