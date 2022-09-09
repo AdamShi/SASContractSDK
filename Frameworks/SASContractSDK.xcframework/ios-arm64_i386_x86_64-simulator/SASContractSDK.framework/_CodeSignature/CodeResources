@@ -14,11 +14,11 @@
 		</data>
 		<key>Headers/SASContractSDK.h</key>
 		<data>
-		bJCAMC9BJffMhWis03o6Tp743f0=
+		/narAkyOMv3DkNV5sD3mQuxwm9o=
 		</data>
 		<key>Headers/SASContractSDKConfig.h</key>
 		<data>
-		fwPecxs59zawgzva7JKGNIU/6gc=
+		BNxY01bQlzZcNzQOozbyAEpMHPY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -316,22 +316,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bJCAMC9BJffMhWis03o6Tp743f0=
+			/narAkyOMv3DkNV5sD3mQuxwm9o=
 			</data>
 			<key>hash2</key>
 			<data>
-			+7Ngr3jqFm5HlqXo7yB/YkXu/Emnfl6jrkMs+m4peiA=
+			hseZmZywamfhrhuWz3uDtRHeDv/8VVanEY2mrxk/Kno=
 			</data>
 		</dict>
 		<key>Headers/SASContractSDKConfig.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fwPecxs59zawgzva7JKGNIU/6gc=
+			BNxY01bQlzZcNzQOozbyAEpMHPY=
 			</data>
 			<key>hash2</key>
 			<data>
-			lW/OlYWdZxvVM6GckQTqsBukhk70MeIxbM3pTQ8PnxA=
+			6vVBEV4NjBGLBiPkYpoz3QKO3HhfuMRPqfw7ZJQsuKY=
 			</data>
 		</dict>
 		<key>Modules/SASContractSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>

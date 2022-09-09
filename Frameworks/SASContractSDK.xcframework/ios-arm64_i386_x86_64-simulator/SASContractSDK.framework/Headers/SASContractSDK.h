@@ -24,26 +24,41 @@ typedef NS_ENUM(NSUInteger, SASContractColorMode) {
 
 @interface SASContractSDK : NSObject
 
-//默认使用的语言版本, 默认为 nil. 将随系统的语言自动改变
-//⽬前⽀持的语⾔有，中⽂: zh-Hans, 韩⽂: ko, 英⽂: en
+/**
+ SDK language code, Currently supports three languages
+ English:        @"en"
+ Chinese:       @"zh-Hans"
+ Korean:        @"ko"
+ */
 @property (nonatomic, copy, nullable) NSString *lang;
-@property (nonatomic, strong) NSString *vicolor;     // VI色,必须是16位色值
-@property (nonatomic, assign) SASContractColorMode theme;   // 主题色
-@property (nonatomic, weak) id <SASContractSDKDelegate> delegate;
 
-- (instancetype)init NS_UNAVAILABLE;
-+ (instancetype)new NS_UNAVAILABLE;
+/**
+ Theme color, must be a hexadecimal color value string, e.g: @"#024FFD"
+ */
+@property (nonatomic, strong) NSString *vicolor;
+
+/**
+ Day mode, night mode
+ */
+@property (nonatomic, assign) SASContractColorMode theme;
+
+/**
+ SASContractSDKDelegate
+ */
+@property (nonatomic, weak) id <SASContractSDKDelegate> delegate;
 
 + (instancetype)sharedSDK;
 + (void)setupSDKWith:(SASContractSDKConfig *)config;
-
 - (UIViewController *)SASContractSDKViewController;
+
 - (void)loginWith:(NSString *)sfg6;
 - (void)logout;
 
 - (void)kLineReSubscribe;
 - (void)kLineCancelSubscribe;
 
+- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
 @end
 
 NS_ASSUME_NONNULL_END
