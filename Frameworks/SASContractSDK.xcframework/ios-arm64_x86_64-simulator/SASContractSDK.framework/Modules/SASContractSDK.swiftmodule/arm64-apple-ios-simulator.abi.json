@@ -1,0 +1,500 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SASContractSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftEntryKit",
+        "printedName": "SwiftEntryKit",
+        "declKind": "Import",
+        "moduleName": "SASContractSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Overlay",
+        "printedName": "Overlay",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "entryAlert",
+            "printedName": "entryAlert(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SASContractSDK@objc(cs)Overlay(cm)entryAlert:",
+            "mangledName": "$s14SASContractSDK7OverlayC10entryAlertyySo6UIViewCFZ",
+            "moduleName": "SASContractSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "entrySheet",
+            "printedName": "entrySheet(_:top:offset:round:bgcolor:dismiss:cancelled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SASContractSDK@objc(cs)Overlay(cm)entrySheet:top:offset:round:bgcolor:dismiss:cancelled:",
+            "mangledName": "$s14SASContractSDK7OverlayC10entrySheet_3top6offset5round7bgcolor7dismiss9cancelledySo6UIViewC_Sb12CoreGraphics7CGFloatVAOSiSbyycSgtFZ",
+            "moduleName": "SASContractSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "entrySheetHide",
+            "printedName": "entrySheetHide(_:top:offset:round:bgcolor:dismiss:cancelled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SASContractSDK@objc(cs)Overlay(cm)entrySheetHide:top:offset:round:bgcolor:dismiss:cancelled:",
+            "mangledName": "$s14SASContractSDK7OverlayC14entrySheetHide_3top6offset5round7bgcolor7dismiss9cancelledySo6UIViewC_Sb12CoreGraphics7CGFloatVAOSiSbyycSgtFZ",
+            "moduleName": "SASContractSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "entryAlert",
+            "printedName": "entryAlert(_:dismiss:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SASContractSDK@objc(cs)Overlay(cm)entryAlert:dismiss:",
+            "mangledName": "$s14SASContractSDK7OverlayC10entryAlert_7dismissySo6UIViewC_SbtFZ",
+            "moduleName": "SASContractSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "entryHide",
+            "printedName": "entryHide(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SASContractSDK@objc(cs)Overlay(cm)entryHide:",
+            "mangledName": "$s14SASContractSDK7OverlayC9entryHideyyyycSgFZ",
+            "moduleName": "SASContractSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Overlay",
+                "printedName": "SASContractSDK.Overlay",
+                "usr": "c:@M@SASContractSDK@objc(cs)Overlay"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SASContractSDK@objc(cs)Overlay(im)init",
+            "mangledName": "$s14SASContractSDK7OverlayCACycfc",
+            "moduleName": "SASContractSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SASContractSDK@objc(cs)Overlay",
+        "mangledName": "$s14SASContractSDK7OverlayC",
+        "moduleName": "SASContractSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/adamshi\/Documents\/Work\/Ledgend\/Projects\/ContractSDK\/SASContractSDK\/SASContractSDK\/Classes\/Tool\/Pop\/Overlay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2263,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adamshi\/Documents\/Work\/Ledgend\/Projects\/ContractSDK\/SASContractSDK\/SASContractSDK\/Classes\/Tool\/Pop\/Overlay.swift",
+      "kind": "FloatLiteral",
+      "offset": 2320,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/adamshi\/Documents\/Work\/Ledgend\/Projects\/ContractSDK\/SASContractSDK\/SASContractSDK\/Classes\/Tool\/Pop\/Overlay.swift",
+      "kind": "FloatLiteral",
+      "offset": 2375,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/adamshi\/Documents\/Work\/Ledgend\/Projects\/ContractSDK\/SASContractSDK\/SASContractSDK\/Classes\/Tool\/Pop\/Overlay.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2428,
+      "length": 8,
+      "value": "0xffffff"
+    },
+    {
+      "filePath": "\/Users\/adamshi\/Documents\/Work\/Ledgend\/Projects\/ContractSDK\/SASContractSDK\/SASContractSDK\/Classes\/Tool\/Pop\/Overlay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2487,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adamshi\/Documents\/Work\/Ledgend\/Projects\/ContractSDK\/SASContractSDK\/SASContractSDK\/Classes\/Tool\/Pop\/Overlay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5149,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adamshi\/Documents\/Work\/Ledgend\/Projects\/ContractSDK\/SASContractSDK\/SASContractSDK\/Classes\/Tool\/Pop\/Overlay.swift",
+      "kind": "FloatLiteral",
+      "offset": 5206,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/adamshi\/Documents\/Work\/Ledgend\/Projects\/ContractSDK\/SASContractSDK\/SASContractSDK\/Classes\/Tool\/Pop\/Overlay.swift",
+      "kind": "FloatLiteral",
+      "offset": 5261,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/adamshi\/Documents\/Work\/Ledgend\/Projects\/ContractSDK\/SASContractSDK\/SASContractSDK\/Classes\/Tool\/Pop\/Overlay.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5314,
+      "length": 8,
+      "value": "0xffffff"
+    },
+    {
+      "filePath": "\/Users\/adamshi\/Documents\/Work\/Ledgend\/Projects\/ContractSDK\/SASContractSDK\/SASContractSDK\/Classes\/Tool\/Pop\/Overlay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5373,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/adamshi\/Documents\/Work\/Ledgend\/Projects\/ContractSDK\/SASContractSDK\/SASContractSDK\/Classes\/Tool\/Pop\/Overlay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7227,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

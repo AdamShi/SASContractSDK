@@ -1,0 +1,11 @@
+framework module SASContractSDK {
+  umbrella header "SASContractSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SASContractSDK.Swift {
+  header "SASContractSDK-Swift.h"
+  requires objc
+}

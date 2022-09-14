@@ -6,6 +6,6 @@ framework module SASContractSDK {
 }
 
 module SASContractSDK.Swift {
-    header "SASContractSDK-Swift.h"
-    requires objc
+  header "SASContractSDK-Swift.h"
+  requires objc
 }

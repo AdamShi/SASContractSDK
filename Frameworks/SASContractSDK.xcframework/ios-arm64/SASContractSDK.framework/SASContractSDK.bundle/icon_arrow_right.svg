@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_more02@2x</title>
+    <g id="Saas设计规范3.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6.7-其他图标规范" transform="translate(-269.000000, -429.000000)" fill-rule="nonzero">
+            <g id="20" transform="translate(80.000000, 419.000000)">
+                <g id="榴莲更多" transform="translate(179.000000, 10.000000)">
+                    <g id="icon_more02" transform="translate(10.000000, 0.000000)">
+                        <rect id="矩形_1263" x="0" y="0" width="20" height="20"></rect>
+                        <path d="M5.97865119,9.99611113 L15.1301922,1.4273016 C15.4498149,1.10248978 15.4498149,0.568420659 15.1301922,0.243608862 C14.8105694,-0.0812029541 14.2914631,-0.0812029541 13.9733374,0.243608862 L4.23270243,9.3624133 C4.06203734,9.53759685 3.98905555,9.77129839 4.00140632,9.99611113 C3.98868128,10.2287016 4.06203734,10.4624031 4.23270243,10.6372163 L13.9729631,19.7560208 C14.2910888,20.0812029 14.8105694,20.0812029 15.1298179,19.7560208 C15.4494407,19.4223202 15.4494407,18.8971398 15.1298179,18.572328 L5.97865119,9.99611113" id="kSASSVGImageLayerID1" fill="#024FFD" transform="translate(9.684955, 9.999954) scale(-1, 1) translate(-9.684955, -9.999954) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
