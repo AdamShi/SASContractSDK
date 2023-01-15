@@ -12,6 +12,7 @@
 
 #import "SASContractSDK.h"
 #import "SASContractSDKConfig.h"
+#import "SASContractSDKManager.h"
 
 FOUNDATION_EXPORT double SASContractSDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char SASContractSDKVersionString[];

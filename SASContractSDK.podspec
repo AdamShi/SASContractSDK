@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SASContractSDK'
-  s.version          = '0.1.30'
+  s.version          = '0.1.31'
   s.summary          = 'This is SASContractSDK. Includes KLines, Contract Deals'
 
 # This description is used to generate tags and improve search results.
@@ -28,8 +28,8 @@ TODO: Add long description of the pod here. Add some Description
   s.source           = { :git => 'https://github.com/AdamShi/SASContractSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
+  s.ios.deployment_target = '10.0'
   
   s.vendored_frameworks = 'Frameworks/SASContractSDK.xcframework'
   
@@ -56,6 +56,7 @@ TODO: Add long description of the pod here. Add some Description
       'VALID_ARCHS' => 'x86_64 arm64',
       'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES',
       'OTHER_LDFLAGS'  =>  ['$(inherited)','-ObjC'],
+      #'OTHER_SWIFT_FLAGS' => ['-Xfrontend','-module-interface-preserve-types-as-written'],
   }
   
 

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SASContractSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -8,12 +8,12 @@ import Swift
 import SwiftEntryKit
 import _Concurrency
 import _StringProcessing
-@objc @_inheritsConvenienceInitializers public class Overlay : ObjectiveC.NSObject {
-  @objc public static func entryAlert(_ view: UIKit.UIView)
-  @objc public static func entrySheet(_ view: UIKit.UIView, top: Swift.Bool = true, offset: CoreFoundation.CGFloat = 0.0, round: CoreFoundation.CGFloat = 0.0, bgcolor: Swift.Int = 0xffffff, dismiss: Swift.Bool = true, cancelled: SwiftEntryKit.EKAttributes.UserInteraction.Action? = nil)
-  @objc public static func entrySheetHide(_ view: UIKit.UIView, top: Swift.Bool = true, offset: CoreFoundation.CGFloat = 0.0, round: CoreFoundation.CGFloat = 0.0, bgcolor: Swift.Int = 0xffffff, dismiss: Swift.Bool = true, cancelled: SwiftEntryKit.EKAttributes.UserInteraction.Action? = nil)
-  @objc public static func entryAlert(_ view: UIKit.UIView, dismiss: Swift.Bool = true)
-  @objc public static func entryHide(_ completion: SwiftEntryKit.SwiftEntryKit.DismissCompletionHandler? = nil)
+@objc @_inheritsConvenienceInitializers public class Overlay : NSObject {
+  @objc public static func entryAlert(_ view: UIView)
+  @objc public static func entrySheet(_ view: UIView, top: Bool = true, offset: CGFloat = 0.0, round: CGFloat = 0.0, bgcolor: Int = 0xffffff, dismiss: Bool = true, cancelled: EKAttributes.UserInteraction.Action? = nil)
+  @objc public static func entrySheetHide(_ view: UIView, top: Bool = true, offset: CGFloat = 0.0, round: CGFloat = 0.0, bgcolor: Int = 0xffffff, dismiss: Bool = true, cancelled: EKAttributes.UserInteraction.Action? = nil)
+  @objc public static func entryAlert(_ view: UIView, dismiss: Bool = true)
+  @objc public static func entryHide(_ completion: SwiftEntryKit.DismissCompletionHandler? = nil)
   @objc override dynamic public init()
   @objc deinit
 }
