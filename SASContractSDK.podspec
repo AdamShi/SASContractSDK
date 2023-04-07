@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SASContractSDK'
-  s.version          = '0.1.35'
+  s.version          = '0.1.36'
   s.summary          = 'This is SASContractSDK. Includes KLines, Contract Deals'
 
 # This description is used to generate tags and improve search results.
