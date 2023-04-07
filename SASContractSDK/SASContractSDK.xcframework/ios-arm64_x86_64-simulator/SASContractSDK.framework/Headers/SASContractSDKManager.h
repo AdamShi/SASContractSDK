@@ -16,6 +16,12 @@ typedef NS_ENUM(NSUInteger, SASContractColorMode) {
     SASContractColorModeDark,
 };
 
+@interface SASContractSDKPerpetualAssetModel : NSObject
+@property(nonatomic, copy) NSString *totalAsset;
+@property(nonatomic, copy) NSString *accountBalance;
+@property(nonatomic, copy) NSString *PNL;
+@end
+
 @protocol SASContractSDKDelegate <NSObject>
 @required
 - (void)contractSDKLoginAction;
@@ -56,6 +62,8 @@ typedef NS_ENUM(NSUInteger, SASContractColorMode) {
 
 - (void)kLineReSubscribe;
 - (void)kLineCancelSubscribe;
+
+- (void)requestPerpetualAssetDataWithCallback:(void(^)(SASContractSDKPerpetualAssetModel *model))callback;
 
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;
