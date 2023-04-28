@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_pai3</title>
+    <g id="Saas设计规范3.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6.5-闪兑图标规范" transform="translate(-223.000000, -578.000000)" fill-rule="nonzero">
+            <g id="icon_pai3" transform="translate(223.000000, 578.000000)">
+                <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="28" height="28"></rect>
+                <polygon id="路径" fill="#878999" points="7 12.25 14 5.25 21 12.25"></polygon>
+                <polygon id="路径" fill="#E4AA24" points="7 15.75 14 22.75 21 15.75"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

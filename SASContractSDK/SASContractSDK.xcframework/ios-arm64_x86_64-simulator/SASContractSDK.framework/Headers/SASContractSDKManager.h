@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "SASContractSDKConfig.h"
-
+#import "CFDProfitShareModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -17,15 +17,17 @@ typedef NS_ENUM(NSUInteger, SASContractColorMode) {
 };
 
 @interface SASContractSDKPerpetualAssetModel : NSObject
-@property(nonatomic, copy) NSString *totalAsset;
-@property(nonatomic, copy) NSString *accountBalance;
-@property(nonatomic, copy) NSString *PNL;
+@property(nonatomic, copy) NSString *available;
+@property(nonatomic, copy) NSString *freeze;
+@property(nonatomic, copy) NSString *totalProfit;
+@property(nonatomic, copy) NSString *totalMargin;
 @end
 
 @protocol SASContractSDKDelegate <NSObject>
 @required
 - (void)contractSDKLoginAction;
 - (void)contractSDKRechargeAction;
+- (void)contractSDKProfitShareActionWithModel:(CFDProfitShareModel *)model;
 @end
 
 @interface SASContractSDKManager : NSObject
@@ -53,17 +55,20 @@ typedef NS_ENUM(NSUInteger, SASContractColorMode) {
  */
 @property (nonatomic, weak) id <SASContractSDKDelegate> delegate;
 
-+ (instancetype)sharedSDK;
-+ (void)setupSDKWith:(SASContractSDKConfig *)config;
-- (UIViewController *)SASContractSDKViewController;
+@property(nonatomic, assign) BOOL allowRotation;
 
-- (void)loginWith:(NSString *)sfg6;
++ (instancetype)sharedInstance;
++ (void)setupSDKWith:(SASContractSDKConfig *)config;
+
+- (UIViewController *)perpetualController;
+- (UIViewController *)infiniteController;
+
+- (void)loginWith:(NSString *)sfg6 callback:(void(^)(BOOL isSuccess, NSString *errorString))callback;
 - (void)logout;
 
-- (void)kLineReSubscribe;
-- (void)kLineCancelSubscribe;
-
-- (void)requestPerpetualAssetDataWithCallback:(void(^)(SASContractSDKPerpetualAssetModel *model))callback;
+- (void)infiniteNoCashProfitWithCompletion:(void(^)(NSString *result))completion;
+- (void)infiniteTransferAmount:(NSString *)num WithCompletion:(void(^)(BOOL isSuccess, NSDictionary *responseDic))completion;
+- (void)requestPerpetualAssetDataWithCallback:(void(^)(SASContractSDKPerpetualAssetModel *model, NSString *errorString))callback;
 
 - (instancetype)init NS_UNAVAILABLE;
 + (instancetype)new NS_UNAVAILABLE;

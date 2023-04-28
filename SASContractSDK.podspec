@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SASContractSDK'
-  s.version          = '0.1.36'
+  s.version          = '0.1.37'
   s.summary          = 'This is SASContractSDK. Includes KLines, Contract Deals'
 
 # This description is used to generate tags and improve search results.
@@ -30,31 +30,32 @@ TODO: Add long description of the pod here. Add some Description
 
   #s.swift_version = '5.0'
   s.ios.deployment_target = '11.0'
-  
   s.vendored_frameworks = 'SASContractSDK/SASContractSDK.xcframework'
-  s.resources = [
-      'SASContractSDK/SASContractSDK.bundle'
-  ]
+  #s.resources = [
+  #    'SASContractSDK/SASContractSDK.bundle'
+  #]
   
-  s.libraries  = 'resolv', 'icucore', 'c++', 'z', 'z.1.2.8', 'xml2.2'
-  s.frameworks = 'UIKit', 'Foundation', 'Security', 'SystemConfiguration', 'CoreMotion', 'CoreTelephony', 'AdSupport', 'CoreLocation', 'CoreFoundation', 'CoreText'
+  #s.libraries  = 'resolv', 'icucore', 'c++', 'z', 'z.1.2.8', 'xml2.2'
+  #s.frameworks = 'UIKit', 'Foundation', 'Security', 'SystemConfiguration', 'CoreMotion', 'CoreTelephony', 'AdSupport', 'CoreLocation', 'CoreFoundation', 'CoreText'
 
+  s.dependency 'AFNetworking'##, '4.0.1'
+  s.dependency 'BeeHive'##, '1.6.0'
+  s.dependency 'CWLateralSlide'##, '1.6.5'
+  s.dependency 'DZNEmptyDataSet'##, '1.8.1'
+  s.dependency 'IQKeyboardManager', '6.5.10'
+  s.dependency 'JXCategoryView'##, '1.6.1'
+  s.dependency 'LYEmptyView'##, '1.3.1'
   s.dependency 'Masonry'##, '1.1.0'
+  s.dependency 'MBProgressHUD'##, '1.2.0'
   s.dependency 'MJExtension'##, '3.2.4'
   s.dependency 'MJRefresh'##, '3.5.0'
-  s.dependency 'MBProgressHUD'##, '1.2.0'
-  s.dependency 'YYModel'##, '1.0.4'
-  s.dependency 'IQKeyboardManager'##, '6.5.10'
   s.dependency 'ReactiveCocoa','2.5'
-  s.dependency 'JXCategoryView'##, '1.6.0'
-  s.dependency 'SwiftEntryKit'##, '2.0.0'
-  s.dependency 'SocketRocket'##, '0.6.0'
-  s.dependency 'LYEmptyView'##, '1.3.1'
-  s.dependency 'AFNetworking'##, '4.0.1'
-  s.dependency 'SVGKit'##, '3.0.0'
-  s.dependency 'YYCache'##, '1.0.4'
-  s.dependency 'SDWebImage'##, '5.10.2'
   s.dependency 'SASOverlay'##, '1.0.1'
+  s.dependency 'SDWebImage'##, '5.15.5'
+  s.dependency 'SocketRocket'##, '0.6.0'
+  s.dependency 'SVGKit'##, '3.0.0'
+  s.dependency 'YYModel'##, '1.0.4'
+  s.dependency 'YYCache'##, '1.0.4'
 
   s.pod_target_xcconfig = {
       'VALID_ARCHS' => 'x86_64 arm64',

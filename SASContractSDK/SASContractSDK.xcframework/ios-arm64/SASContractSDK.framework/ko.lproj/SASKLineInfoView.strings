@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "--"; ObjectID = "29T-BF-SbZ"; */
+"29T-BF-SbZ.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "54z-LE-KSb"; */
+"54z-LE-KSb.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "6Op-lP-V4v"; */
+"6Op-lP-V4v.text" = "--";
+
+/* Class = "UILabel"; text = "最低"; ObjectID = "8t4-4T-FCS"; */
+"8t4-4T-FCS.text" = "Low";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "Bt8-SK-WU2"; */
+"Bt8-SK-WU2.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "IiU-NL-zHn"; */
+"IiU-NL-zHn.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "QYB-ve-zRx"; */
+"QYB-ve-zRx.text" = "--";
+
+/* Class = "UILabel"; text = "涨跌额"; ObjectID = "Qfw-1K-bHC"; */
+"Qfw-1K-bHC.text" = "변동액%";
+
+/* Class = "UILabel"; text = "收盘"; ObjectID = "RCl-yH-P0Q"; */
+"RCl-yH-P0Q.text" = "닫기";
+
+/* Class = "UILabel"; text = "时间"; ObjectID = "V3I-po-WuT"; */
+"V3I-po-WuT.text" = "시간";
+
+/* Class = "UILabel"; text = "成交量"; ObjectID = "YhI-ad-NOg"; */
+"YhI-ad-NOg.text" = "거래량";
+
+/* Class = "UILabel"; text = "涨跌幅"; ObjectID = "aYa-K6-pLa"; */
+"aYa-K6-pLa.text" = "변동";
+
+/* Class = "UILabel"; text = "开盘"; ObjectID = "fgB-Gw-NII"; */
+"fgB-Gw-NII.text" = "열기";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "hjN-2R-aaE"; */
+"hjN-2R-aaE.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "ioz-T1-jZ0"; */
+"ioz-T1-jZ0.text" = "--";
+
+/* Class = "UILabel"; text = "最高"; ObjectID = "j66-ET-H30"; */
+"j66-ET-H30.text" = "최고";

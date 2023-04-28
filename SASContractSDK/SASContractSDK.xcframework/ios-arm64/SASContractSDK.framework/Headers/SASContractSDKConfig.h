@@ -12,11 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface SASContractSDKConfig : NSObject
 @property (nonatomic, copy) NSString *apiURL;
 @property (nonatomic, copy) NSString *socketURL;
-
-/**
- Channel code
- */
-@property (nonatomic, copy) NSString *k5fu3;
+@property (nonatomic, copy) NSString *k5fu3; //Channel code
 
 @end
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon_shandui1</title>
+    <g id="Joybit蓝色" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0-图标下载" transform="translate(-45.000000, -489.000000)">
+            <g id="闪兑划转" transform="translate(35.000000, 489.000000)">
+                <g id="icon_shandui1" transform="translate(10.000000, 0.000000)">
+                    <path d="M0,0 L60,0 L60,60 L0,60 L0,0 Z" id="矩形"></path>
+                    <g id="huazhuan">
+                        <rect id="kSASSVGImageLayerID1" fill="#024FFD" x="0" y="0" width="60" height="60" rx="20"></rect>
+                        <path d="M22.8820375,27.47963 L20.8310992,29.3426558 L18.1578947,26.1583352 L26.9458163,18.1578947 L26.9458163,41.8421053 L22.8820375,41.8421053 L22.8820375,27.47963 L22.8820375,27.47963 Z M37.1179625,32.5269764 L39.1689008,30.6639507 L41.8421053,33.8482713 L33.0541837,41.8421053 L33.0541837,18.1645012 L37.1179625,18.1645012 L37.1179625,32.5269764 Z" id="形状" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
