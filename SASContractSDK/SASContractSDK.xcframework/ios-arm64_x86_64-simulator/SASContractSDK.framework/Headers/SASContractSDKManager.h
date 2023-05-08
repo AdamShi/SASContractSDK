@@ -55,19 +55,21 @@ typedef NS_ENUM(NSUInteger, SASContractColorMode) {
  */
 @property (nonatomic, weak) id <SASContractSDKDelegate> delegate;
 
-@property(nonatomic, assign) BOOL allowRotation;
+@property (nonatomic, assign) BOOL allowRotation;
 
 + (instancetype)sharedInstance;
 + (void)setupSDKWith:(SASContractSDKConfig *)config;
 
 - (UIViewController *)perpetualController;
 - (UIViewController *)infiniteController;
+- (UIViewController *)optionController;
 
-- (void)loginWith:(NSString *)sfg6 callback:(void(^)(BOOL isSuccess, NSString *errorString))callback;
 - (void)logout;
+- (void)loginWith:(NSString *)sfg6 callback:(void(^)(BOOL isSuccess, NSString *errorString))callback;
 
 - (void)infiniteNoCashProfitWithCompletion:(void(^)(NSString *result))completion;
 - (void)infiniteTransferAmount:(NSString *)num WithCompletion:(void(^)(BOOL isSuccess, NSDictionary *responseDic))completion;
+
 - (void)requestPerpetualAssetDataWithCallback:(void(^)(SASContractSDKPerpetualAssetModel *model, NSString *errorString))callback;
 
 - (instancetype)init NS_UNAVAILABLE;
