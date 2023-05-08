@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SASContractSDK'
-  s.version          = '1.1.1'
+  s.version          = '1.1.2'
   s.summary          = 'This is SASContractSDK. Includes KLines, Contract Deals'
 
 # This description is used to generate tags and improve search results.
@@ -31,9 +31,9 @@ TODO: Add long description of the pod here. Add some Description
   #s.swift_version = '5.0'
   s.ios.deployment_target = '11.0'
   s.vendored_frameworks = 'SASContractSDK/SASContractSDK.xcframework'
-  #s.resources = [
-  #    'SASContractSDK/SASContractSDK.bundle'
-  #]
+  s.resources = [
+      'SASContractSDK/SASResources/**/*'
+  ]
   
   #s.libraries  = 'resolv', 'icucore', 'c++', 'z', 'z.1.2.8', 'xml2.2'
   #s.frameworks = 'UIKit', 'Foundation', 'Security', 'SystemConfiguration', 'CoreMotion', 'CoreTelephony', 'AdSupport', 'CoreLocation', 'CoreFoundation', 'CoreText'
