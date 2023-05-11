@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/SASContractSDKManager.h</key>
 		<data>
-		YNyUBmWQoBiEmkgVTaOU6cKhLnQ=
+		WoXAaJSPHwbwcE6+qo7YJJfbLVY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -83,11 +83,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YNyUBmWQoBiEmkgVTaOU6cKhLnQ=
+			WoXAaJSPHwbwcE6+qo7YJJfbLVY=
 			</data>
 			<key>hash2</key>
 			<data>
-			olX1Sle2sTd6EqIcDP0qCSA3LDDmdHuC+TW1k4uTKJk=
+			Op1PGu5oVAOZKaqrj937f8/OaX/6ejpWPWgQoGOgRx8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
