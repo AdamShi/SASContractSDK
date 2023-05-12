@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SASContractSDK'
-  s.version          = '1.2.0'
+  s.version          = '1.2.1'
   s.summary          = 'This is SASContractSDK. Includes KLines, Contract Deals'
 
 # This description is used to generate tags and improve search results.
@@ -29,6 +29,7 @@ TODO: Add long description of the pod here. Add some Description
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   #s.swift_version = '5.0'
+  s.static_framework = true
   s.ios.deployment_target = '11.0'
   s.vendored_frameworks = 'SASContractSDK/SASContractSDK.xcframework'
   s.resources = [
