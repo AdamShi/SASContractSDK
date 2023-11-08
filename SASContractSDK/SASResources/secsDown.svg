@@ -1,0 +1,19 @@
+<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="10" height="10" fill="#F5F5F5"/>
+<g id="Trade Detail" clip-path="url(#clip0_3929_17940)">
+<rect width="375" height="812" transform="translate(-193 -103)" fill="white"/>
+<g id="Group 7251">
+<rect id="Rectangle 4440" x="-193" y="-7" width="375" height="24" fill="white"/>
+<g id="Group 7266">
+<g id="icon_down02">
+<path id="Left_arrow_&#230;&#139;&#183;&#232;&#180;&#157;" fill-rule="evenodd" clip-rule="evenodd" d="M1.02149 2.8445C0.970295 3.04284 1.01166 3.2537 1.13399 3.418L4.65799 7.545C4.70878 7.61599 4.7907 7.65811 4.87799 7.65811C4.96528 7.65811 5.0472 7.61599 5.09799 7.545L8.62199 3.4185C8.71156 3.3036 8.7584 3.16114 8.75449 3.0155C8.75456 2.95808 8.74785 2.90085 8.73449 2.845C8.71518 2.66769 8.57847 2.52583 8.40199 2.5H1.35449C1.17797 2.52557 1.04106 2.66722 1.02149 2.8445V2.8445Z" fill="#888C95"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_3929_17940">
+<rect width="375" height="812" fill="white" transform="translate(-193 -103)"/>
+</clipPath>
+</defs>
+</svg>

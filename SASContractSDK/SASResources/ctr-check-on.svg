@@ -1,17 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>icon_select4</title>
-    <g id="Joybit蓝色" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="0-图标下载" transform="translate(-119.000000, -845.000000)">
-            <g id="选中" transform="translate(112.000000, 845.000000)">
-                <g id="icon_select4" transform="translate(7.000000, 0.000000)">
-                    <path d="M0,0 L26,0 L26,26 L0,26 L0,0 Z" id="矩形"></path>
-                    <g id="icon_select">
-                        <rect id="kSASSVGImageLayerID1" fill="#024FFD" fill-rule="nonzero" x="0" y="0" width="26" height="26" rx="1.73333333"></rect>
-                        <path d="M19.0546154,8 L20.6861538,9.63076923 L11.9830769,18.3384615 L10.8953846,17.2461538 L6,12.3538462 L7.63153846,10.7230769 L11.981,15.07 L19.0546154,8 Z" id="矩形_1267" fill="#FFFFFF"></path>
-                    </g>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2348_9142)">
+<path d="M12.1333 0H0.866667C0.38802 0 0 0.38802 0 0.866667V12.1333C0 12.612 0.38802 13 0.866667 13H12.1333C12.612 13 13 12.612 13 12.1333V0.866667C13 0.38802 12.612 0 12.1333 0Z" fill="#024FFD"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.52731 4L10.3431 4.81538L5.99154 9.16923L5.44769 8.62308L3 6.17692L3.81577 5.36154L5.9905 7.535L9.52731 4Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_2348_9142">
+<rect width="13" height="13" fill="white"/>
+</clipPath>
+</defs>
 </svg>

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CFDProfitShareModel.h</key>
 		<data>
-		js5q1IufknMkzIyf9lma2C7BKiw=
+		crM4yma2D3W8GNDK0GFedHhgeNk=
 		</data>
 		<key>Headers/SASContractSDK-umbrella.h</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Headers/SASContractSDKManager.h</key>
 		<data>
-		WoXAaJSPHwbwcE6+qo7YJJfbLVY=
+		NyRxF0Z1R937/6wjWDMOak9T+Mo=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		F2JOvM1zqSzKaSnooMG4CjGBtzo=
+		KoetPzDjHa2PM50jX5L946y93FY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,11 +39,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			js5q1IufknMkzIyf9lma2C7BKiw=
+			crM4yma2D3W8GNDK0GFedHhgeNk=
 			</data>
 			<key>hash2</key>
 			<data>
-			RDzWz9qXseTc95TpilL4WyA5Q74ZMp8NExmdzYKM/C4=
+			tIIV8d92rkhRHLYrOvWVa51XV9DsP+RvDtB+8YpEr6U=
 			</data>
 		</dict>
 		<key>Headers/SASContractSDK-umbrella.h</key>
@@ -83,11 +83,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WoXAaJSPHwbwcE6+qo7YJJfbLVY=
+			NyRxF0Z1R937/6wjWDMOak9T+Mo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Op1PGu5oVAOZKaqrj937f8/OaX/6ejpWPWgQoGOgRx8=
+			RGpRAjsSzBH+Fn9TLQ/aApg6zfJkAgXHy7V9PwyDK7w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

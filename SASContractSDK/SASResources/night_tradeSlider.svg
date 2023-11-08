@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>切片</title>
-    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="状态" transform="translate(-41.000000, -488.000000)">
-            <g id="当前夜间" transform="translate(41.666667, 488.000000)">
-                <circle id="椭圆形" fill="#D0A858" cx="12" cy="12" r="12"></circle>
-                <circle id="椭圆形" fill="#191B27" cx="12" cy="12" r="8"></circle>
-            </g>
-        </g>
-    </g>
+<svg width="13" height="12" viewBox="0 0 13 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2348_9275)">
+<path d="M6.33398 12C9.64769 12 12.334 9.31371 12.334 6C12.334 2.68629 9.64769 0 6.33398 0C3.02028 0 0.333984 2.68629 0.333984 6C0.333984 9.31371 3.02028 12 6.33398 12Z" fill="#D0A858"/>
+<path d="M6.33398 10C8.54312 10 10.334 8.20914 10.334 6C10.334 3.79086 8.54312 2 6.33398 2C4.12485 2 2.33398 3.79086 2.33398 6C2.33398 8.20914 4.12485 10 6.33398 10Z" fill="#191B27"/>
+</g>
+<defs>
+<clipPath id="clip0_2348_9275">
+<rect width="12.5" height="12" fill="white"/>
+</clipPath>
+</defs>
 </svg>

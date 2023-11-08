@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString * direction;
 @property (nonatomic, copy) NSString * type;//持仓列表/历史仓位
 @property (nonatomic, copy) NSString * instrument;
+@property (nonatomic, assign) NSInteger leverage; // 杠杆
 @end
 
 NS_ASSUME_NONNULL_END
