@@ -59,6 +59,7 @@ typedef NS_ENUM(NSUInteger, SASContractColorMode) {
 
 + (instancetype)sharedInstance;
 + (void)setupSDKWith:(SASContractSDKConfig *)config;
++ (void)resetHost:(SASContractSDKConfig *)config;
 
 - (UIViewController *)perpetualController;
 - (UIViewController *)infiniteController;
