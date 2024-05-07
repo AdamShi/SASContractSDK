@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SASContractSDK'
-  s.version          = '1.3.4'
+  s.version          = '1.3.5'
   s.summary          = 'This is SASContractSDK. Includes KLines, Contract Deals'
 
 # This description is used to generate tags and improve search results.
@@ -51,6 +51,7 @@ TODO: Add long description of the pod here. Add some Description
   s.dependency 'MBProgressHUD'##, '1.2.0'
   s.dependency 'MJExtension'##, '3.2.4'
   s.dependency 'MJRefresh'##, '3.5.0'
+  s.dependency 'pop'##, '1.0.10'
   s.dependency 'ReactiveCocoa','2.5'
   s.dependency 'SASOverlay'##, '1.0.1'
   s.dependency 'SDWebImage'##, '5.15.5'
