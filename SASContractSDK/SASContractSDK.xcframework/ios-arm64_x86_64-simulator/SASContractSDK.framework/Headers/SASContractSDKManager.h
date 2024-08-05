@@ -33,10 +33,8 @@ typedef NS_ENUM(NSUInteger, SASContractColorMode) {
 @interface SASContractSDKManager : NSObject
 
 /**
- SDK language code, Currently supports three languages
- English:        @"en"
- Chinese:       @"zh-Hans"
- Korean:        @"ko"
+ SDK language code, Currently supports 18 languages
+ @"en",@"zh-Hans", @"zh-Hant", @"ar", @"de", @"es", @"fr", @"it", @"ja", @"ko", @"nb-NO", @"nl-NL", @"pl", @"pt", @"pt-BR", @"ru", @"tr", @"vi-VN"
  */
 @property (nonatomic, copy, nullable) NSString *lang;
 
@@ -67,7 +65,7 @@ typedef NS_ENUM(NSUInteger, SASContractColorMode) {
 - (UIViewController *)secondController;
 
 - (void)logout;
-- (void)loginWith:(NSString *)sfg6 callback:(void(^)(BOOL isSuccess, NSString *errorString))callback;
+- (void)loginWith:(NSString *)sfg6 callback:(void(^)(BOOL isSuccess, NSString *errorCode, NSString *errorMsg))callback;
 
 - (void)infiniteNoCashProfitWithCompletion:(void(^)(NSString *result))completion;
 - (void)infiniteTransferAmount:(NSString *)num WithCompletion:(void(^)(BOOL isSuccess, NSDictionary *responseDic))completion;
