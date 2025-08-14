@@ -65,7 +65,7 @@ typedef NS_ENUM(NSUInteger, SASContractColorMode) {
 - (UIViewController *)secondController;
 
 - (void)logout;
-- (void)loginWith:(NSString *)sfg6 callback:(void(^)(BOOL isSuccess, NSString *errorCode, NSString *errorMsg))callback;
+- (void)loginWith:(NSString *)sfg6;
 
 - (void)infiniteNoCashProfitWithCompletion:(void(^)(NSString *result))completion;
 - (void)infiniteTransferAmount:(NSString *)num WithCompletion:(void(^)(BOOL isSuccess, NSDictionary *responseDic))completion;
